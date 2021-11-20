@@ -1,0 +1,29 @@
+.flex-container1, .flex-container2, .flex-container3, .flex-container4{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:80px; 
+    justify-content: space-evenly; 
+}
+.flex-element{
+    width:200px;
+    height: 200px;
+    background-color: rgb(228, 82, 130);
+
+}
+img:hover{
+    cursor: pointer; 
+    height: 250px;
+    width: 250px;
+}
+.img:hover{
+    cursor: pointer; 
+    height: 250px;
+    width: 250px;
+}
+body{
+    text-align: center;
+    background-color:rgb(238, 79, 79);
+    padding-bottom: 40px;
+}
